@@ -1,0 +1,15 @@
+# 端口配置server:
+server:
+  port: 8086
+# mqtt
+mqtt:
+  config:
+    channel:
+      url: [tcp://xxx.com:1883]
+      username: test
+      password: test
+      timeout: 60
+      kep-alive-interval: 60
+      async: true
+      client-id-prefix: client_id
+
