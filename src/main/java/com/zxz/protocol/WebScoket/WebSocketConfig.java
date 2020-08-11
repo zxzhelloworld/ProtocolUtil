@@ -1,4 +1,4 @@
-package com.zxz.protocol.WS;
+package com.zxz.protocol.WebScoket;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

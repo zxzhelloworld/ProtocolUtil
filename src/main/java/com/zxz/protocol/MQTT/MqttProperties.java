@@ -12,6 +12,7 @@ import java.util.Map;
  * @des mqtt配置文件
  */
 @Data
+@ConfigurationProperties(prefix = "mqtt")
 @Configuration
 public class MqttProperties {
 	

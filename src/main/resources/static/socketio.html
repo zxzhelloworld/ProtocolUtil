@@ -1,0 +1,19 @@
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>消息推送</title>
+</head>
+<body>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="./js/socket.io/socket.io.js"></script>
+<script type="text/javascript">
+    <!-- 实时从指定查看是否有消息 -->
+    var socket = io.connect('localhost:8092');
+    socket.on('connect_msg',function(data){
+        alert(data);
+    });
+</script>
+</html>

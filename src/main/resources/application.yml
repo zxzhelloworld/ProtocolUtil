@@ -5,9 +5,9 @@ server:
 mqtt:
   config:
     channel:
-      url: [tcp://xxx.com:1883]
-      username: test
-      password: test
+      url: [tcp://mq.ai-xinke.com:1883]
+      username: dev_test
+      password: dev_test
       timeout: 60
       kep-alive-interval: 60
       async: true

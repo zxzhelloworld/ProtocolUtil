@@ -1,4 +1,4 @@
-package com.zxz.protocol.WS;
+package com.zxz.protocol.WebScoket;
 
 import com.alibaba.fastjson.JSON;
 import lombok.extern.slf4j.Slf4j;
