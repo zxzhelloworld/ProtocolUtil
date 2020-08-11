@@ -11,7 +11,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SocketIOController {
     /**
-     * 测试报警推送服务:主要应用一个方法pushArr
+     * 测试报警推送服务:主要应用一个方法pushArr(前端代码有问题，测试未通过)
      */
     @GetMapping("/pushMessage")
     public void pushMessage(){

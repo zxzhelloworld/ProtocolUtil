@@ -5,7 +5,7 @@ server:
 mqtt:
   config:
     channel:
-      url: [tcp://mq.ai-xinke.com:1883]
+      url: [tcp://xxx:1883]
       username: dev_test
       password: dev_test
       timeout: 60
