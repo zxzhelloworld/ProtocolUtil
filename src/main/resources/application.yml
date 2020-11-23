@@ -12,4 +12,10 @@ mqtt:
       kep-alive-interval: 60
       async: true
       client-id-prefix: client_id
+sms:
+  app_id: 140039754
+  app_key: 05fb973a9da1082c5904fcce1fefcae
+  sms_sign: 测试
+  nation_code: 8
+  default_mobile: 1982127009
 

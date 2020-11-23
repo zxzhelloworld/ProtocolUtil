@@ -4,6 +4,10 @@ import com.zxz.protocol.SocketIO.SocketIO;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
 /**
  * @Author: zhangxiaozhou
  * @Date: 2020/8/11 15:44
@@ -19,4 +23,5 @@ public class SocketIOController {
         //这里发送的消息内容可以结合具体场景自定义对象
         socketio.pushArr("connect_msg", "今天下午2点开会");
     }
+
 }
